@@ -1,5 +1,5 @@
 import streamlit as st
-from var import *
+from var import x,y
 
 new_x = x
 new_y = y
