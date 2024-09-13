@@ -1,4 +1,8 @@
 import streamlit as st
+
+st.write(os.getcwd())  # Cek direktori kerja saat ini
+st.write(sys.path)
+
 from var import *
 
 new_x = x
