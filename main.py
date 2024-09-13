@@ -1,8 +1,8 @@
 import streamlit as st
-import var
+from var import *
 
-new_x = var.x
-new_y = var.y
+new_x = x
+new_y = y
 
 total = new_x + new_y
 st.write("Hello world!")
